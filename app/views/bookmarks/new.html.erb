@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Select the ovie</h1>
+  <%= simple_form_for [@list, @bookmark] do |f| %>
+    <%= f.association :movie %>
+    <%= f.input :comment %>
+    <%= f.submit "Add movie" %>
+  <% end %>
+</div>
+<%= link_to "Back to list", list_path(@list) %>
