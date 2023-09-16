@@ -1,24 +1,13 @@
-# README
+# Watch List
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Small CRUD project in rails with login and relationship features between database tables
 
-Things you may want to cover:
+## Technologies Used
 
-* Ruby version
+The project was developed using the following technologies and tools:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Ruby on Rails
+- PostgreSQL
+- HTML, CSS and Bootstrap
+- Bootstrap: Responsive design framework
+- Heroku
