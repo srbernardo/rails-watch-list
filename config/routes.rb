@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get "lists/new", to: "lists#new"
   post  "lists", to: "lists#create"
   get "lists/:id", to: "lists#show", as: "list"
+  delete "lists/:id", to: "lists#destroy"
 
   get "lists/:id/bookmarks/new", to: "bookmarks#new", as: "list_bookmarks"
   post "lists/:id/bookmarks/new", to: "bookmarks#create", as: 'new_list_bookmark'
