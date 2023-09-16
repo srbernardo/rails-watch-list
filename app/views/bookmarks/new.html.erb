@@ -1,9 +1,9 @@
-<div class="container">
+<div class="container mt-5">
   <h1>Select the ovie</h1>
   <%= simple_form_for [@list, @bookmark] do |f| %>
     <%= f.association :movie %>
     <%= f.input :comment %>
-    <%= f.submit "Add movie" %>
+    <%= f.submit "Add movie", class: "btn btn-primary" %>
   <% end %>
+  <%= link_to "Back to list", list_path(@list), class: "btn btn-secondary mt-3" %>
 </div>
-<%= link_to "Back to list", list_path(@list) %>
