@@ -8,4 +8,5 @@ bundle exec rake assets:clean
 bundle exec rake db:reset
 bundle exec rails generate devise:install
 bundle exec rake db:migrate
+bundle exec rake db:seed
 #all rigth
